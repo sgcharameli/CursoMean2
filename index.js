@@ -18,6 +18,4 @@ mongoose.connect('mongodb://localhost:27017/curso_mean2', (err, res) => {
     }
 });
 
-mongoose.disconnect();
-
 console.log('Finalizando index.js');
